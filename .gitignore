@@ -1,2 +1,50 @@
+# ----------------------------
+# Python bytecode & cache
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+.eggs/
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/*
+
+# ----------------------------
+# IDE / Editor settings
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# OS junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Data / Results / Folders
+# ----------------------------
+output/
+*.hdf5
+*.hdf
+*.fits
+*.npy
+*.npz
+
 2507_BT_BOA_Pol/
 2507_BT_ICON_Elec/
